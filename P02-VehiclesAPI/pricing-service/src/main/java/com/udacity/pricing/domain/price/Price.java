@@ -15,7 +15,6 @@ public class Price {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-
     private String currency;
     private BigDecimal price;
     private Long vehicleId;
